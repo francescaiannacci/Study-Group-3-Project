@@ -8,17 +8,17 @@ That's why we want to investigate billionaires (our monetary goal) to see what c
 
 We want to see the relationships between the billionaires themselves and the factors/variables listed to infer the reasons behind their success and to predict our prosperity accordingly:
 
-FinalWorth
-Category
-Country
-Source
-Industries
-CountryOfCitizenship
-SelfMade
-Gender
-BirthDate
-BirthMonth
-Total_tax_rate_country
+FinalWorth\
+Category\
+Country\
+Source\
+Industries\
+CountryOfCitizenship\
+SelfMade\
+Gender\
+BirthDate\
+BirthMonth\
+Total_tax_rate_country\
 
 **Data**
 
