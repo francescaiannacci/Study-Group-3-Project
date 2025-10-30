@@ -3,3 +3,32 @@
 As per every business student's aspiration, we only have one goal in life: becoming rich.
 While we believe that LBS provides us with good foundations, we want to look at real world factors that will help contribute to achieving this goal.
 That's why we want to investigate billionaires (our monetary goal) to see what contributed to their success.
+
+**Questions**
+
+We want to see the relationships between the billionaires themselves and the factors/variables listed to infer the reasons behind their success and to predict our prosperity accordingly:
+
+**FinalWorth
+Category
+Country
+Source
+Industries
+CountryOfCitizenship
+SelfMade
+Gender
+BirthDate
+BirthMonth
+Total_tax_rate_country**
+
+**Data**
+
+Billionaires Statistics Dataset (2023) (https://www.kaggle.com/datasets/nelgiriyewithana/billionaires-statistics-dataset/data)
+
+Dataset was collected from Kaggle, through toolbox.google.com.
+
+This dataset contains statistics on the world's billionaires, including information about their businesses, industries, and personal details. It provides insights into the wealth distribution, business sectors, and demographics of billionaires worldwide.
+
+**Statistical Techniques**
+
+We are going to utilize different regression techniques to predict our likelihood of becoming a billionaire. 
+We will build correlation matrices to assess how each variables are related.
