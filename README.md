@@ -30,5 +30,5 @@ This dataset contains statistics on the world's billionaires, including informat
 
 **Statistical Techniques**
 
-We are going to utilize different regression techniques to predict our likelihood of becoming a billionaire. 
-We will build correlation matrices to assess how each variables are related.
+We are going to utilize different regression techniques (such as Linear Regression, LASSO Regression) to predict our likelihood of becoming a billionaire. 
+We will utilize EDA techniques to build visualizations and correlation matrices to better understand the variables within the dataset.
