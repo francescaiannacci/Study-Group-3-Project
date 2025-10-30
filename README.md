@@ -18,7 +18,7 @@ SelfMade\
 Gender\
 BirthDate\
 BirthMonth\
-Total_tax_rate_country\
+Total_tax_rate_country
 
 **Data**
 
