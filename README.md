@@ -12,17 +12,32 @@ For Demographics the most interesting stat that popped out was that ___ billiona
 
 This level of analysis was done across the remaing three factors of Self-Made, Education, and Geography. The key reccomendation for Self-Made was to show self-drive as most billionaires are self-made. For Education we reccomended not bringing up studnet's LBS master's degrees as most of the world's billionaires are dropouts and thus have no connections to the degrees. Finally, for Geography the key reccomendation was to go to Monaco as we dsicovered the highest density of billionaires live here.
 
-Having this better understanding of billionaires, we now know how to effectively position ourselves in the right enviroment to meet a billionaire and what to say to them when we do get the chance to network. Now that we know how to network with a billionaire, the next part of the project was running a regression to detail what factors are the most important to billionaire wealth so that we can now look to become a billionaire ourselves.
+Having this better understanding of billionaires, we now know how to effectively position ourselves in the right enviroment to meet a billionaire and what to say to them when we do get the chance to network. Now that we know how to network with a billionaire, the next part of the project was running a regression to detail what factors are the most important to billionaire wealth so that we can now look to become a billionaire ourselves. We fit a Ridge regression (RidgeCV, 5-fold CV, alpha=3,455) to predict billionaire wealth (n=2,644) using 153 features derived from geographic, industry, demographic, wealth source, and education variables. The model achieved R²=0.078 with feature importance showing Geography (28%), Industry (22%), and Demographics (21%) as top contributors. French citizenship, Fashion & Retail industry, and founder status showed strongest positive effects, while formal education had minimal impact. The low explanatory power indicates 92% of wealth variance stems from idiosyncratic factors beyond observable characteristics.
 
-Finally we built out an interactive app that 
+Finally we built out an interactive dashboard using streamlit that is a billionaire hunting cheat sheet, showing where the richest people cluster by country and industry. It highlights the biggest contributors so you know exactly where to focus your networking efforts.
 
 
 
 
 **Data**
 
-Billionaires Statistics Dataset (2023) (https://www.kaggle.com/datasets/nelgiriyewithana/billionaires-statistics-dataset/data)
+1. Billionaires Statistics Dataset (2023) (https://www.kaggle.com/datasets/nelgiriyewithana/billionaires-statistics-dataset/data)
 
 Dataset was collected from Kaggle, through toolbox.google.com.
 
 This dataset contains statistics on the world's billionaires, including information about their businesses, industries, and personal details. It provides insights into the wealth distribution, business sectors, and demographics of billionaires worldwide.
+
+2. Billionaires CSV (https://corgis-edu.github.io/corgis/csv/billionaires/)
+
+Dataset was collected from CORGIS DATASET PROJECT on Github
+
+Researchers have compiled a multi-decade database of the super-rich. Building off the Forbes World’s Billionaires lists from 1996-2014, scholars at Peterson Institute for International Economics have added a couple dozen more variables about each billionaire - including whether they were self-made or inherited their wealth. 
+
+3. Billionaires Listed in Forbes (https://www.kaggle.com/datasets/sujalluhar/billionaires-listed-in-forbes)
+   
+Dataset was collected from Kaggle, through toolbox.google.com.
+
+What factors are affecting wealth? and in the answer to that, identify valuable opportunities for underdeveloped or developing countries. By examining the data, we can uncover insights that help nations make informed decisions on how to increase their wealth and well-being.
+
+This dataset aims to provide actionable insights for policymakers, entrepreneurs, and anyone looking to contribute to economic growth and well-being on a global scale.
+
